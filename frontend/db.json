@@ -1,0 +1,64 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "name": "London",
+      "country": "United Kingdom",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F2d%2F46%2Fd0%2F2d46d0c47d7bff70224259f3eaf798a5.jpg&f=1&nofb=1&ipt=78ef149662045769d54c958d1a423265eceabe7f450493bc86ea4e776ae2f2c2&ipo=images"
+    },
+    {
+      "id": 2,
+      "name": "New York",
+      "country": "United States",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Ffb%2Fc3%2F76%2Ffbc3765a4dce97ff3f91d87074985752.jpg&f=1&nofb=1&ipt=6e7d60463209e8082528eac98632e08c1b0819f12bc6ec502fc4618bb579b017&ipo=images"
+    },
+    {
+      "id": 3,
+      "name": "Paris",
+      "country": "France",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp3261717.jpg&f=1&nofb=1&ipt=70855e939560ed746402d32d47788afc1473ccbb5904102bbfa88cf948addd6f&ipo=images"
+    },
+    {
+      "id": 4,
+      "name": "Rome",
+      "country": "Italy",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.princessjourney.co.uk%2Fheroes%2F_social%2FRome-Local-Hero.jpg&f=1&nofb=1&ipt=fe72e3c1f9077ae03f2bc92053ec3115f3c6abb4f6a389e82abe22ea8050f800&ipo=images"
+    },
+    {
+      "id": 5,
+      "name": "Berlin",
+      "country": "Germany",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fviajes.nationalgeographic.com.es%2Fmedio%2F2017%2F02%2F09%2Fshutterstock-302415089_6b607cdb.jpg&f=1&nofb=1&ipt=e53facb72d45fdb0a1a25ac823d1879df1cbb6443ecfb8576047dfba805ac7a3&ipo=images"
+    },
+    {
+      "id": 6,
+      "name": "Istanbul",
+      "country": "Türkiye",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgoliveitblog.com%2Fwp-content%2Fuploads%2F2020%2F03%2FIstanbul-COVER-scaled.jpg&f=1&nofb=1&ipt=33553db06276ae1f959daff448fd1329e81ba456d5d85190c5741741baa94cc2&ipo=images"
+    },
+    {
+      "id": 7,
+      "name": "New Delhi",
+      "country": "India",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.getyourguide.com%2Fimg%2Flocation%2F533591d4b943b.jpeg%2F88.jpg&f=1&nofb=1&ipt=7ee9d36880bfc6cfb1c45fbadc2dcced70b1fecc5878b65739dcd99e2ec0c60b&ipo=images"
+    },
+    {
+      "id": 8,
+      "name": "Tokyo",
+      "country": "Japan",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffacts.net%2Fwp-content%2Fuploads%2F2020%2F01%2Ftokyo-facts.jpeg&f=1&nofb=1&ipt=e6e8bfe0cc9593d9df648ed3097e1ae05ce119ddd13cad228b7382e98e06969d&ipo=images"
+    },
+    {
+      "id": 9,
+      "name": "Shanghai",
+      "country": "China",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gtreview.com%2Fwp-content%2Fuploads%2F2014%2F10%2FShanghai-skyline-panoramic-water.jpg&f=1&nofb=1&ipt=b0c11e9dfd7779670fe0dd73c96f823564c311414e8e4ae567be783c8a62cf51&ipo=images"
+    },
+    {
+      "id": 10,
+      "name": "St. Petersburg",
+      "country": "Russia",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.travelblissnow.com%2Fwp-content%2Fuploads%2F2019%2F05%2FSt.-Petersburg-cover2.jpg&f=1&nofb=1&ipt=e7ec2e156242941b5a722902358da2465b5f7651079205d42a66ac242f4744cf&ipo=images"
+    }
+  ]
+}

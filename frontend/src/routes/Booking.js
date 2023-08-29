@@ -1,4 +1,4 @@
-export default function Flights() {
+export default function Booking() {
   return (
     <div className="flight-container">
       <h1 className="flight-page">Book a Flight</h1>

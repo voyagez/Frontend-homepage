@@ -13,7 +13,7 @@ export default function Error() {
           {error.status}: {error.statusText}
         </code>
       </p>
-      <Link href="/">take me home</Link>
+      <Link href="/">Take me home</Link>
       <footer className="mt-4 text-xs"></footer>
     </div>
   );

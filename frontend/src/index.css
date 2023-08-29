@@ -1,13 +1,225 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.site-header-container {
+  display: flex;
+  height: 125px;
+  margin-left: 35px;
+  margin-right: 0px;
+  margin-top: 35px;
+  float: left;
+  width: 16480x;
+  background-color: hsla(0, 0%, 100%, 0);
+}
+.site-header {
+  font-size: 7em;
+  display: inline-block;
+  width: 500px;
+  margin-top: 0px;
+  background-color: hsla(0, 0%, 100%, 0);
+}
+.logo {
+  width: 1000px;
+  max-height: 200px;
+  display: inline-block;
+  justify-content: right;
+}
+.logo-img {
+  width: 2500px;
+  height: 200px;
+  justify-self: right;
+}
+.logo-container {
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 1000px;
+  height: 250px;
+  margin-top: 0px;
+  justify-self: right;
+}
+
+.nav-bar {
+  padding: 0.01em;
+  margin: 1em;
+  width: auto;
+  background-image: url("https://media2.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.gif");
+  background-size: cover;
+  border-style: solid;
+}
+
+.nav-bar-items {
+  display: inline-flex;
+  width: 100%;
+  padding: 0.01em;
+  margin: 1em;
+  justify-content: center;
+}
+.nav-item {
+  font-weight: 1000;
+  display: inline-flex;
+  margin-inline: 20px;
+  font-size: 25pt;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.nav-item:link {
+  color: rgb(8, 0, 255);
+  text-decoration: none;
+}
+
+.nav-item:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: rgb(242, 226, 3);
+  text-decoration: none;
+  animation-name: link-hover;
+  animation-duration: 0.7s;
+}
+
+.nav-item:active {
+  color: rgb(57, 67, 204);
+  text-decoration: none;
+}
+.nav-item-pages {
+  justify-content: center;
+  display: inline-flex;
+  margin-inline: 20px;
+}
+
+.welcome-page {
+  padding: 0.01em;
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  height: 700px;
+}
+.welcome-page-header {
+  font-size: 60pt;
+  justify-content: center;
+  display: flex;
+  width: auto;
+  animation-name: welcome-page-text;
+  animation-duration: 4s;
+}
+.welcome-blurb {
+  font-size: 45pt;
+  margin-top: 55px;
+  position: absolute;
+  bottom: 0;
+  animation-name: welcome-page-text;
+  animation-duration: 6s;
+}
+.city-list {
+  display: flex;
+  overflow: scroll;
+  padding: 0px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 15px;
+  height: 335px;
+}
+.city-info {
+  padding: 0.01em;
+  margin: 10px;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.086);
+}
+.city-image {
+  display: block;
+  margin: 25px;
+  width: 250px;
+  height: 250px;
+  border: solid 2px;
+  /* animation-name: image-fade;
+  animation-duration: 5s;
+  animation-iteration-count: 1; */
+}
+.city-text {
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  color: white;
+}
+.city-image:hover {
+  display: block;
+  margin: 20px;
+  padding: 0;
+  width: 260px;
+  height: 260px;
+  animation-name: city-hover-width, city-hover-height, city-hover-margin;
+  animation-duration: 0.5s;
+}
+@keyframes link-hover {
+  from {
+    color: rgb(0, 0, 0);
+  }
+  to {
+    color: rgb(242, 226, 3);
+  }
+}
+@keyframes link-hover-button {
+  from {
+    background-color: rgb(0, 0, 0);
+  }
+  to {
+    color: rgb(242, 226, 3);
+  }
+}
+
+@keyframes welcome-page-text {
+  from {
+    color: rgb(255, 255, 255);
+  }
+  to {
+    color: rgb(0, 0, 0);
+  }
+}
+@keyframes city-hover-width {
+  from {
+    width: 250px;
+  }
+
+  to {
+    width: 260px;
+  }
+}
+@keyframes city-hover-height {
+  from {
+    height: 250px;
+  }
+  to {
+    height: 260px;
+  }
+}
+@keyframes city-hover-margin {
+  from {
+    margin: 25px;
+  }
+  to {
+    margin: 20px;
+  }
+}
+/* @keyframes image-fade { */
+/* from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */

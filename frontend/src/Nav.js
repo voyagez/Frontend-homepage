@@ -10,8 +10,8 @@ export default function Nav() {
             <NavLink className="nav-item" to="/">
               Home
             </NavLink>
-            <NavLink className="nav-item" to="flight">
-              Flights
+            <NavLink className="nav-item" to="booking">
+              Bookings
             </NavLink>
             <NavLink className="nav-item" to="about">
               About

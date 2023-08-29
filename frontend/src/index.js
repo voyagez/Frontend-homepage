@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Error from "./Error";
 import Root from "./routes/Root";
 import Welcome from "./Welcome";
-import Flights from "./routes/Flights";
+import Booking from "./routes/Booking";
 import About from "./routes/About";
 
 const router = createBrowserRouter([
@@ -18,14 +18,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Welcome />,
-      },
-      {
-        path: "flight",
-        element: <Flights />,
         // loader: async () =>
-        //   fetch("http://localhost:3000/bookings").then((response) =>
+        //   fetch("http://localhost:3000/cities").then((response) =>
         //     response.json()
         //   ),
+      },
+      {
+        path: "booking",
+        element: <Booking />,
       },
       {
         path: "about",
