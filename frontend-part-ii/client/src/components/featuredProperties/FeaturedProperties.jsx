@@ -39,7 +39,7 @@ const FeaturedProperties = () => {
             <span className="fpPrice">Starting from $169</span>
             <div className="fpRating">
               <button>7.7</button>
-              <span>Excellent</span>
+              <span>Good</span>
             </div>
           </div>
           <div className="fpItem" key="2">
@@ -55,10 +55,10 @@ const FeaturedProperties = () => {
             <span className="fpPrice">Starting from $129</span>
             <div className="fpRating">
               <button>7.7</button>
-              <span>Excellent</span>
+              <span>Good</span>
             </div>
           </div>
-          <div className="fpItem" key="2">
+          <div className="fpItem" key="3">
             <img
               src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.bigvenuebook.com%2Fvenue-images%2Fmain_image1378.jpg&f=1&nofb=1&ipt=05de03c890037c5714e81ef38514b34cf37413e14e876cea66bab88232898e49&ipo=images"
               alt="Millennium Gloucester Hotel London"
@@ -69,7 +69,20 @@ const FeaturedProperties = () => {
             <span className="fpPrice">Starting from $132</span>
             <div className="fpRating">
               <button>7.3</button>
-              <span>Excellent</span>
+              <span>Good</span>
+            </div>
+          </div>
+          <div className="fpItem" key="4">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.hotelquirinale.it%2Fdata%2F2560%2FHotel-Quirinale-Roma-ingresso.jpg&f=1&nofb=1&ipt=4cc20a00cc39a327b68481f74f8aa25df9faf570f9e8262674a67323560e1088&ipo=images"
+              className="fpImg"
+            />
+            <span className="fpName">Hotel Quirinale</span>
+            <span className="fpCity">Repubblica, Rome</span>
+            <span className="fpPrice">Starting from $183</span>
+            <div className="fpRating">
+              <button>8</button>
+              <span>Very Good</span>
             </div>
           </div>
         </>

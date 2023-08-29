@@ -11,10 +11,16 @@
 
 .featuredItem {
   /* padding: 0.01em; */
-  margin: 25px;
   position: relative;
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-width: 0.1px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color: rgba(0, 0, 0, 0.125);
 }
 
 .featuredImg {
@@ -23,13 +29,13 @@
   width: 250px;
   height: 250px;
   border: solid 1px, rgba(0, 0, 0, 0.59);
-  border-radius: 2%;
+  border-radius: 5%;
   cursor: pointer;
 }
 
 .featuredTitles {
   position: absolute;
-  left: 35px;
+  left: 45px;
   top: 25px;
   color: white;
 }
