@@ -8,6 +8,7 @@ import Root from "./routes/Root";
 import Welcome from "./Welcome";
 import Flights from "./routes/Flights";
 import About from "./routes/About";
+import { ClerkProvider } from "@clerk/clerk-react";
 
 const router = createBrowserRouter([
   {
