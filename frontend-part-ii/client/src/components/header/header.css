@@ -14,9 +14,18 @@
 }
 
 .headerTitle {
-  font-size: 80pt;
+  font-size: 35pt;
+  animation-name: header-fade;
+  animation-duration: 5s;
 }
-
+@keyframes header-fade {
+  from {
+    color: rgba(255, 255, 255, 0);
+  }
+  to {
+    color: rgb(255, 255, 255);
+  }
+}
 .headerContainer.listMode {
   margin: 20px 0px 0px 0px;
 }

@@ -96,16 +96,11 @@
 }
 
 .fpRating > span {
-  /* font-size: 14px;
-  display: block;
-  float: left;
-  width: 250px; */
   font-weight: 500;
   display: block;
   float: left;
   width: 250px;
   height: 25px;
-  position: fixed;
 }
 @keyframes fp-hover-width {
   from {
