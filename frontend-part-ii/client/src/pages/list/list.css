@@ -13,7 +13,7 @@
 
 .listSearch {
   flex: 1;
-  background-color: #febb02;
+  background-color: #0000001e;
   padding: 10px;
   border-radius: 10px;
   position: sticky;
@@ -21,29 +21,29 @@
   height: max-content;
 }
 
-.lsTitle{
+.lsTitle {
   font-size: 20px;
   color: #555;
   margin-bottom: 10px;
 }
 
-.lsItem{
+.lsItem {
   display: flex;
   flex-direction: column;
   gap: 5px;
   margin-bottom: 10px;
 }
 
-.lsItem>label{
+.lsItem > label {
   font-size: 12px;
 }
 
-.lsItem>input{
+.lsItem > input {
   height: 30px;
   border: none;
   padding: 5px;
 }
-.lsItem>span{
+.lsItem > span {
   height: 30px;
   padding: 5px;
   background-color: white;
@@ -52,11 +52,11 @@
   cursor: pointer;
 }
 
-.lsOptions{
+.lsOptions {
   padding: 10px;
 }
 
-.lsOptionItem{
+.lsOptionItem {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
@@ -64,18 +64,19 @@
   font-size: 12px;
 }
 
-.lsOptionInput{
+.lsOptionInput {
   width: 50px;
 }
 
-.listSearch>button{
+.listSearch > button {
   padding: 10px;
-  background-color: #0071c2;
+  background-image: url("https://media2.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.gif");
   color: white;
   border: none;
   width: 100%;
   font-weight: 500;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .listResult {

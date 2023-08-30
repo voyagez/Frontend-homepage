@@ -62,7 +62,9 @@ const Header = ({ type }) => {
       >
         {type !== "list" && (
           <>
-            <h1 className="headerTitle">Voyage</h1>
+            <h1 className="headerTitle">
+              Welcome to Voyage. <br /> For all your booking needs.{" "}
+            </h1>
             {/* <p className="headerDesc">
               Get rewarded for your travels – unlock instant savings of 10% or
               more with a free Voyagez Booking account
